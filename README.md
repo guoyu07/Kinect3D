@@ -1,13 +1,13 @@
 Kinect3D
 ========
 
-use KinectOrbit + SimpleOpenNI1.96 + Processing 2.21 to show kinect space
+Use KinectOrbit + SimpleOpenNI1.96 + Processing 2.21 to show kinect space.
 
-environment: win7 64bit, Kinect SDK 1.8(Kinect for Windows drivers v1.8)
+Environment: win7 64bit, Kinect SDK 1.8(Kinect for Windows drivers v1.8)
 
-the SimpleOpenNI.java in source has rewritten method **getLibraryPathWin()**.
+The SimpleOpenNI.java in source has rewritten method **getLibraryPathWin()**.
 
-the default processing libraries directory is 
+The default processing libraries directory is 
 ```java
 System.getProperty("user.home") + "/Documents/Processing/libraries"
 ```
